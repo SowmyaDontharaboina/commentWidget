@@ -152,15 +152,7 @@ section {
     border: 0;
     cursor: pointer;
 }
-#todo-container {
-    display: flex;
-}
-.todo-app-container li .btn {
-    margin-left: 40px;
-}
-.todo-app-container li{
-    padding-bottom: 10px;
-}
+
 .in-progress,.completed ,.todo-list{
     border: 1px solid #a3a0a0;
     width: 250px;
@@ -297,26 +289,7 @@ h3{
 .error {
     color: #cb1717;
 }
-/* .cart-container  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-.cart-container .cart-view {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 37%;
-    margin-top: 15px;
-}
-.cart-container .cart-view > .details{
-    display: flex;
-    flex-direction: column;
-}
-.cart-container .details .price{
-    font-weight: 500;
-    color: #1885d5;
-}
+
 .search,.menu-search {
     margin-top: 10px;
     display: flex;
@@ -436,33 +409,7 @@ h3{
 .tablist-box .tab-items {
     margin: 0;
 }
-.sort_modal-container .sort-list{ 
-    width: max-content;
-    margin-bottom: 1.4rem;
-    margin-right: 1.4rem;
-}
-.sort_modal-container .sort_input {
-    display: none;
-}
-.sort_modal-container .svg-box{ 
-    height: 1.2rem;
-    width: 1.2rem;
-}
-.sort_modal-container .circle-icon {
-    stroke: rgb(156, 156, 156);
-    stroke-width: 1px;
-    fill: rgb(255, 255, 255);
-}
-.sort_modal-container .svg-box .checked {
-    display: none;
-    fill: rgb(239, 79, 95);
-}
-.sort_modal-container  input[type="radio"]:checked + .svg-box .circle-icon{
-    stroke: rgb(239, 79, 95);
-}
-.sort_modal-container  input[type="radio"]:checked + .svg-box .checked{
-    display: inherit;
-}
+
 .tab {
     background: rgb(248, 248, 248);
     padding: 1rem 2.4rem;
